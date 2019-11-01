@@ -30,7 +30,7 @@
 		<connection>scm:git:git://github.com/coffeeframework/BasicHlvlPackage.git</connection>
 		<developerConnection>scm:git:ssh://github.com/coffeeframework/BasicHlvlPackage.git</developerConnection>
 		<url>https://github.com/coffeeframework/BasicHlvlPackage</url>
-	  <tag>release1</tag>
+	  <tag>basickhlvlpackage</tag>
   </scm>
 
 	<distributionManagement>
