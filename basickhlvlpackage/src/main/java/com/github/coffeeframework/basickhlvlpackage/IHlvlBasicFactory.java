@@ -14,7 +14,7 @@ public interface IHlvlBasicFactory {
 	
 	/**
 	 * Produces an hlvl sentence with the declaration of a boolean element
-	 * @param identifier
+	 * @param identifier for the element
 	 * @return string that represents the declaration of a hlvl boolean element 
 	 */
 	
@@ -87,7 +87,7 @@ public interface IHlvlBasicFactory {
 	 * 
 	 * @param positives
 	 * @param negatives
-	 * @return
+	 * @return string syntax for cnf2expression for hlvl
 	 */
 	public String parseCNF2expression(List<String> positives, List<String> negatives);
 	
@@ -102,14 +102,13 @@ public interface IHlvlBasicFactory {
 
 	/**
 	 * Returns the label for the variability relations block
-	 * @return
+	 * @return header for relations block
 	 */
 	public String getRelationsLab();
 	
 	/**
-	 * Returns an operations block with the set of basic operations
+	 * @return an operations block with the set of basic operations
 	 */
-	
 	public String getBasicOperationsBlock();
 	
 }

@@ -13,8 +13,6 @@ public interface HlvlBasicKeys {
 	/**
 	 * Hlvl Constructs for the dialect HLVL(basic)
 	 */
-	
-
 	// change introduced by avillota
 	public static String COMMON ="common";
 	public static String MUTEX ="mutex";
