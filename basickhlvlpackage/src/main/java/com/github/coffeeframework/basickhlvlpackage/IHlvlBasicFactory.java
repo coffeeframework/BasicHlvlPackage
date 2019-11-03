@@ -84,10 +84,10 @@ public interface IHlvlBasicFactory {
 
 	
 	/**
-	 * 
-	 * @param positives
-	 * @param negatives
-	 * @return string syntax for cnf2expression for hlvl
+	 * Parse a single conjunctive normal form (dimacs format) into a hlvl's expression sentence
+	 * @param positives are the positive literals involved in the CNF
+	 * @param negatives are the negative literals involved in the CNF
+	 * @return string syntax for an CNF expression into an hlvl's expression sentence
 	 */
 	public String parseCNF2expression(List<String> positives, List<String> negatives);
 	
