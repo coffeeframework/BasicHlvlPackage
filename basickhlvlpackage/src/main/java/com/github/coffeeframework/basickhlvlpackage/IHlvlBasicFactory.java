@@ -35,7 +35,7 @@ public interface IHlvlBasicFactory {
 	public String getCommonList(List<String> identifiers);
 
 	/**
-	 * Produces an implies declaration of the form left => right
+	 * Produces an implies declaration
 	 * @param left, the identifier of the left
 	 * @param right, the identifier in the right side of the implication
 	 * @return an hlvl sentence in the form implies(left, right)

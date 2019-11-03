@@ -19,14 +19,15 @@ public interface IHlvlParser {
 	
 	/**
 	 * Method to do the parsing of a xml file to Hlvl
-	 * @throws Exception
+	 * @throws Exception when there were issues doing the parsing of the xml file
 	 */
 	public void parse() throws Exception;
 	
 	/**
 	 * Method to do the parsing of a xml file to Hlvl
 	 * @param data: String that represents the content of a xml file
-	 * @throws Exception: 
+	 * @return returns a string representing the hlvl variabilty model
+	 * @throws Exception when there were issues doing the parsing
 	 */
 	public String parse(String data)throws Exception;
 	

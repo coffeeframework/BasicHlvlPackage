@@ -10,7 +10,7 @@ public class CnfExpFactory implements HlvlBasicKeys{
 	 * @param negatives list of negative literals from the CNF expression
 	 * @param numId string that represent a relation "r"
 	 * @param id index of the current relation in the hlvl model
-	 * @return
+	 * @return an hlvl expression sentence equivalent to the CNF  expression
 	 */
 	public String getCNF2expression(List<String> positives, List<String> negatives, int numId, String id) {
 		String out= id+ (numId++) + COLON+  EXPRESSION+ OPEN_CALL;
