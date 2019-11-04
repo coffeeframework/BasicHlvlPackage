@@ -1,8 +1,0 @@
-com\github\coffeeframework\basickhlvlpackage\IHlvlParser.class
-com\github\coffeeframework\basickhlvlpackage\IHlvlBasicFactory.class
-com\github\coffeeframework\basickhlvlpackage\GroupType.class
-com\github\coffeeframework\basickhlvlpackage\HlvlBasicFactory.class
-com\github\coffeeframework\basickhlvlpackage\HlvlBasicKeys.class
-com\github\coffeeframework\basickhlvlpackage\HlvlBasicFactory$1.class
-com\github\coffeeframework\basickhlvlpackage\DecompositionType.class
-com\github\coffeeframework\basickhlvlpackage\CnfExpFactory.class
