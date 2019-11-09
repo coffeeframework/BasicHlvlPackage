@@ -95,6 +95,8 @@ public class HlvlBasicFactory implements IHlvlBasicFactory,HlvlBasicKeys{
 		case Or: 
 			out+=OR+  CLOSE_CALL+"\n";
 			break;
+		default:
+			out+= "\n";
 		}
 		return out;
 	}
