@@ -117,5 +117,10 @@ public class HlvlBasicFactory implements IHlvlBasicFactory,HlvlBasicKeys{
 		COMMA +
 		NUM_CONF;
 	}
+	@Override
+	public String parserExpression(String expresion) {
+		
+		return id + (numId++) + COLON + EXPRESSION + OPEN_CALL + expresion + CLOSE_CALL + "\n";
+	}
 
 }

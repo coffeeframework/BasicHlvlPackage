@@ -91,7 +91,12 @@ public interface IHlvlBasicFactory {
 	 */
 	public String parseCNF2expression(List<String> positives, List<String> negatives);
 	
-
+	/**
+	 * Generates a String with the syntax required for the expressions.
+	 * @param expression String that contains the expression.
+	 * @return String with the expression written in the correspondent syntax.
+	 */
+	public String parserExpression(String expresion);
 	
 	/**
 	 * Produces the header of an HLVL file
